@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nubank - Finalmente você no controle do seu dinheiro</title>
+    
+</head>
+<body>
+    <section class="top-menu">
+        <div class="logo left">
+            <img src="img/nu.svg">
+        </div>
+			<nav class="desktop">
+				<ul>
+					<li><a href="#">Página inicial</a></li>
+                    <div>
+                        <li><a class="cascata11" href="#">Para você</a></li>
+                        <img src="img/cascata.svg">
+                    </div>
+                    <div>
+					<li><a class="cascata22" href="#">Para seu negócio</a></li>
+                    <img src="img/cascata.svg">
+                    </div>
+                    <div>
+                    <li><a href="#" class="cascata33">O Nubank</a></li>
+                    <img src="img/cascata.svg">
+                    </div>
+                    <li><a href="#">Perguntas</a></li>
+                    <ul class="right">
+                        <li><a style="color: rgb(122, 5, 168);" href="#">Login <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+                        <img src="img/Login.svg">
+                    </ul>
+                    <div class="cascata1" id="cascata1">
+                    <div class="grid-item sobre navcas">
+                        <br><a>Nubank</a><br><br>
+                        <h2 href="#">Cartão de crédito</h2>
+                        <h2 href="#">Conta do Nubank</h2>
+                        <h2 href="#">Tudo sobre Pix</h2>
+                    </div>
+                    <div class="grid-item sobre navcas2">
+                        <br><a>Nubank Ultravioleta</a><br><br>
+                        <h2 href="#">Cartão de crédito</h2>
+                    </div>
+                    <div class="grid-item sobre navcas2">
+                        <br><a>Outros produtos</a><br><br>
+                        <h2 href="#">Empréstimo Pessoal</h2>
+                        <h2 href="#">Seguro de Vida</h2>
+                    </div>
+                    </div>
+                    <div class="cascata2" id="cascata2">
+                        <div class="grid-item sobre navcas">
+                            <br><a>Conta PJ</a><br><br>
+                            <h2 href="#">Conta PJ</h2>
+                            <h2 href="#">Cartão de crédito PJ</h2>
+                        </div>
+                        </div>
+                        <div class="cascata3" id="cascata3">
+                            <div class="grid-item sobre navcas">
+                                <br><a>Sobre nós</a><br><br>
+                                <h2 href="#">O Nu</h2>
+                                <h2 href="#">Sala de imprensa</h2>
+                                <h2 href="#">Carreiras</h2>
+                                <h2 href="#">Nu impacto</h2>
+                            </div>
+                            <div class="grid-item sobre navcas2">
+                                <br><a>Outros Canais</a><br><br>
+                                <h2 href="#">Blog</h2>
+                                <h2 href="#">Newsletter</h2>
+                                <h2 href="#">Comunidade</h2>
+                                <h2 href="#">InvestNews</h2>
+                            </div>
+                            <div class="grid-item sobre navcas2">
+                                <br><a>Nubank pelo mundo</a><br><br>
+                                <h2 href="#">México</h2>
+                                <h2 href="#">Colômbia</h2>
+                                <h2 href="#">Argentina</h2>
+                            </div>
+                            </div>
+                </ul>
+            </nav>
+            <div class="botao-menu-mobile right">
+                <button class="botao" onclick="botao();"><img src="img/barras.jpg" id="barras"></button>
+             </div>
+			 <nav class="mobile left" id="mobile">
+				<ul>
+                    <div class="das">
+					<li><a href="#">Página inicial</a></li>
+                    <div>
+                        <button class="botao" onclick="botao1();"><li><a class="cascata11" href="#">Para você</a><img src="img/cascata.svg"></li>
+                        </button>
+                        <div class="cascata1" id="botao1">
+                            <div class="grid-item sobre navcas">
+                                <br><a>Nubank</a><br><br>
+                                <h2 href="#">Cartão de crédito</h2>
+                                <h2 href="#">Conta do Nubank</h2>
+                                <h2 href="#">Tudo sobre Pix</h2>
+                            </div>
+                            <div class="grid-item sobre navcas2">
+                                <br><a>Nubank Ultravioleta</a><br><br>
+                                <h2 href="#">Cartão de crédito</h2>
+                            </div>
+                            <div class="grid-item sobre navcas2">
+                                <br><a>Outros produtos</a><br><br>
+                                <h2 href="#">Empréstimo Pessoal</h2>
+                                <h2 href="#">Seguro de Vida</h2>
+                            </div>
+                            </div>
+                    </div>
+                    <div>
+                        <button class="botao" onclick="botao2();">
+					<li><a class="cascata22 left"href="#">Para seu negócio</a><img src="img/cascata.svg"></li>
+                    </button>
+                    <div class="cascata2" id="botao2">
+                        <div class="grid-item sobre navcas">
+                            <br><a>Conta PJ</a><br><br>
+                            <h2 href="#">Conta PJ</h2>
+                            <h2 href="#">Cartão de crédito PJ</h2>
+                        </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                        <button class="botao" onclick="botao3();">
+                    <li><a href="#" class="cascata33">O Nubank</a><img src="img/cascata.svg"></li>
+                    </button>
+                </div>
+                    <div class="cascata3" id="botao3">
+                        <div class="grid-item sobre navcas">
+                            <br><a>Sobre nós</a><br><br>
+                            <h2 href="#">O Nu</h2>
+                            <h2 href="#">Sala de imprensa</h2>
+                            <h2 href="#">Carreiras</h2>
+                            <h2 href="#">Nu impacto</h2>
+                        </div>
+                        <div class="grid-item sobre navcas2">
+                            <br><a>Outros Canais</a><br><br>
+                            <h2 href="#">Blog</h2>
+                            <h2 href="#">Newsletter</h2>
+                            <h2 href="#">Comunidade</h2>
+                            <h2 href="#">InvestNews</h2>
+                        </div>
+                        <div class="grid-item sobre navcas2">
+                            <br><a>Nubank pelo mundo</a><br><br>
+                            <h2 href="#">México</h2>
+                            <h2 href="#">Colômbia</h2>
+                            <h2 href="#">Argentina</h2>
+                        </div>
+                        </div>
+                    </div>
+                    <li><a href="#">Perguntas</a></li>
+                    <ul class="right">
+                        <li><a style="color: rgb(122, 5, 168);" href="#">Login</a><img src="img/Login.svg"></li>
+                        
+                    </ul>
+                </ul>
+            </div>
+			</nav>
+        <div class="clear"></div>
+    </section>
+    <section class="banner teste b1" style="background-image: url(img/banner-1.webp);background-repeat: no-repeat;background-size: cover !important;background-position: center;">
+        <div class="chamada w50 left">
+            <h1>Já se imaginou sócio do Nubank?</h1>
+            <h2>Participe do NuSócios, o programa que vai oferecer milhões de pedacinhos do Nubank para os clientes. <i class="fa fa-chevron-right" aria-hidden="true"></i><div style="background: rgb(138, 5, 190);" class="borda-efeito"></div></h2>
+            <a href="#">Conheça as regras do programa NuSócios</a>
+        </div>
+        <div class="chamada-part2 w50 right">
+            <form class="right">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"><b>Peça sua conta e cartão de crédito do Nubank</b></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu CPF">
+                </div>
+                <button type="submit"><span class="left">Continuar</span>
+                  <img src="img/direita.svg" class="left">
+                </button>
+              </form>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section class="banner">
+        <div class="chamada w50 left pd">
+            <h1><b class="roxo t600">Cartão de Crédito</b><br>
+                Pode chamar ele de
+                roxinho. Além disso,
+                pode chamar ele de
+                moderno, gratuito e
+                prático também.</h1>
+            <div class="seta">
+            <h2>Saiba mais</h2>
+            <img src="img/linkroxo.svg">
+            </div>
+        </div>
+        <div class="chamada-part2 w50 left pd2">
+            <img src="img/cartao1.webp" alt="">
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section class="banner">
+        <div class="chamada w50 left">
+            <h1><b class="roxo t600">Nubank Ultravioleta</b><br>O cartão pensado 
+            para quem quer ver além</h1>
+            <div class="seta">
+                <h2>Saiba mais</h2>
+                <img src="img/linkroxo.svg">
+            </div>
+        </div>
+        <div class="chamada-part2 w50 left">
+            <img src="img/cartao2.webp" alt="">
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section class="banner">
+        <div class="chamada w50 left pd3">
+            <h1><b class="roxo t600">Conta do Nubank</b><br>A conta que vai levar 
+                você ao controle da sua 
+                vida financeira.</h1>
+                <div class="seta">
+                    <h2>Sem tarifas e sem complicações<a href="#"></a></h2>
+                    <img src="img/linkroxo.svg">
+                </div>
+        </div>
+        <div class="chamada-part2 w50 left pd2">
+            <img src="img/celular.webp" alt="">
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section style="background-image: url(img/banner-2.webp);background-repeat: no-repeat;background-size: cover !important;background-position: center;" class="banner b2">
+        <div class="fundo chamada left pd4" >
+            <h1>Nós acreditamos que só uma pessoa 
+                pode ter controle sobre sua  
+                vida financeira: você.</h1>
+                <div class="seta">
+                    <h2>Saiba mais sobre como fazemos isso<a href="#"></a></h2>
+                    <img src="img/linkbranco.svg">
+                </div>
+        </div>
+        <div class="clear"></div>    
+    </section>
+    <section style="background-image: url(img/banner-3.webp);background-repeat: no-repeat;background-size: cover !important;background-position: center;" class="banner b3">
+        <div class="fundo chamada left pd4 h1b" >
+            <h1>NuCommunity</h1><h1>
+                A comunidade oficial do Nubank para 
+                você tirar dúvidas e compartilhar ideias.</h1>
+                <div class="seta">
+                    <h2>Faça parte<a href="#"></a></h2>
+                    <img src="img/setacima.svg">
+                </div>
+        </div>
+        <div class="clear"></div>    
+    </section>
+    <section style="background-image: url(img/banner-4.webp);background-repeat: no-repeat;background-size: cover !important;background-position: center;" class="banner b4">
+        <div class="fundo chamada left pd4" >
+            <h1>Muita informação e conteúdo para
+                 você encontrar a melhor versão 
+                 da sua vida financeira</h1>
+                <div class="seta">
+                    <h2>Fala, Nubank<a href="#"></a></h2>
+                    <img src="img/setacima.svg">
+                </div>
+        </div>
+        <div class="clear"></div>    
+    </section>
+    <footer>
+        <div class="grid-container">
+            <div class="grid-item sobre">
+                <h2>Nubank</h2>
+                <a href="#">Sobre nós</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Perguntas frequentes</a>
+                <a href="#">Contato</a>
+                <a href="#">Imprensa</a>
+                <div class="seta">
+                    <a href="#">Nu Impacto</a>
+                    <img src="img/setacima.svg">
+                </div>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Produtos</h2>
+                <a href="#">Conta digital</a>
+                <a href="#">Cartão de crédito</a>
+                <a href="#">Rewards</a>
+                <a href="#">Empréstimo</a>
+                <a href="#">Conta PJ</a>
+                <a href="#">Cartão de crédito PJ</a>
+                <a href="#">Nubank Vida</a>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Explore</h2>
+                <div class="seta">
+                    <a href="#">Comunidade</a>
+                    <img src="img/setacima.svg">
+                </div>
+                <div class="seta">
+                    <a href="#">Blog</a>
+                    <img src="img/setacima.svg">
+                </div>
+                <div class="seta">             
+                    <a href="#">Newslatter</a>
+                    <img src="img/setacima.svg">
+                </div>
+                <div class="seta">
+                    <a href="#">México</a>
+                    <img src="img/setacima.svg">
+                </div>
+                <div class="seta">
+                    <a href="#">Argentina</a>
+                    <img src="img/setacima.svg">
+                </div>
+                <div class="seta">
+                    <a href="#">Comômbia</a>
+                    <img src="img/setacima.svg">
+                </div>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Veja também</h2>
+                <div class="seta">
+                    <a href="#">Auxílio Emergencial e FGTS</a>
+                    <img src="img/linkbranco.svg">
+                </div>
+                <div class="seta">
+                    <a href="#">Tudo sobre o Pix</a>
+                    <img src="img/linkbranco.svg">
+                </div>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Transparência</h2>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Política de Compliance</a>
+                <a href="#">Contratos</a>
+                <a href="#">Política de segurança</a>
+                <a href="#">Ética & Compliance</a>
+                <a href="#">Dados abertos</a>
+                <a href="#">SCR</a>
+                <a href="#">Convenção de Boleto</a>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Ouvidoria</h2>
+                <a href="#">0800 887 0463</a>
+                <a href="#">ouvidoria@nubank.com.br</a>
+                <a href="#">Atendimento das 9h às 18h (dias úteis)</a>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Fale com a gente</h2>
+                <a href="#">0800 608 6236</a>
+                <a href="#">meajuda@nubank.com.br</a>
+                <a href="#">Atendimento 24h</a>
+            </div>
+            <div class="grid-item sobre">
+                <h2>Baixe o app</h2>
+                <img src="img/applestore.svg">
+                <br><br>
+                <img src="img/googleplay.svg">
+            </div>
+        </div>
+        <hr>
+        <div class="grid-container2">
+            <div class="grid-item2">
+                <img src="img/nub.svg" alt="#">
+                <span>© 2021  Nu Pagamentos S.A - Instituição de Pagamento.  18.236.120/0001-58<br>
+                    Rua Capote Valente, 39 - São Paulo, SP - 05409-000</span>
+            </div>
+        </div>
+        <hr>
+        <div class="final right">
+            <input id="pt" type="checkbox"><label for="pt">Portguês</label>
+            <input id="en" type="checkbox"><label for="en">English</label>
+        </div>
+        <div class="clear"></div>
+    </footer>
+    <script src="js/script.js"></script> 
+</body>
+</html>
